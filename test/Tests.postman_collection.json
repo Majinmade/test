@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "69686ea9-99c1-4993-9c8b-1a67735c63b2",
+		"name": "Tests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1883759"
+	},
+	"item": [
+		{
+			"name": "Currencies",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "SpecificCurrency",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/currencies/USD",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"currencies",
+						"USD"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
